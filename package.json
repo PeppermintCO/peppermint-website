@@ -1,0 +1,40 @@
+{
+	"name": "Peppermint",
+	"version": "1.0.0",
+	"description": "Website for Peppermint app",
+	"main": "index.js",
+	"scripts": {
+		"run": "nodemon server/server.js",
+		"build": "NODE_ENV=production webpack",
+		"start": "NODE_ENV=production nodemon server/server.js",
+		"dev": "NODE_ENV=development webpack-dev-server & nodemon server/server.js",
+		"eslint": "eslint"
+	},
+	"author": "Jan Catalan",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/preset-env": "^7.6.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel": "^6.23.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.6",
+		"create-react-app": "^3.1.1",
+		"css-loader": "^3.2.0",
+		"node-sass": "^4.12.0",
+		"nodemon": "^1.19.2",
+		"pg": "^7.12.1",
+		"pg-hstore": "^2.3.3",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-router": "^5.0.1",
+		"react-router-dom": "^5.0.1",
+		"sass": "^1.23.1",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.40.2",
+		"webpack-cli": "^3.3.9",
+		"webpack-dev-server": "^3.8.1"
+	}
+}

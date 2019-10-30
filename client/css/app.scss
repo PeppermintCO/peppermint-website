@@ -1,0 +1,267 @@
+$bgcolor: #222222;
+// $textcolor: darkblue;
+// $fontsize: 18px;
+$schema1: rgb(58, 143, 196);
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  overflow: scroll;
+  margin: 0px;
+  height: 270vh;
+
+  #key {
+    height: 100%;
+    width: 100%;
+ 
+    .app{
+    //   margin-top: 3%;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .FirstPanel {
+        // margin-top: 5%;
+        height: 25%;
+        width: 100%;
+        box-shadow: 0 0 10px 3px rgb(0, 0, 0); 
+        background: linear-gradient(45deg, rgba(48,114,158,1) 42%, rgba(145,223,250,1) 100%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .titleAndLogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30%;
+            width: 50%;
+            // position: absolute;
+            text-align: center;
+            color: rgb(230, 230, 230);
+            margin-bottom: 3%;
+            // flex-basis: 100%; 
+            // flex-flow: row wrap;
+            .titleName {
+                font-size: 100px;
+            letter-spacing: 3px;
+            font-family: 'courier', sans-serif; 
+            font-weight: 500px;
+            }
+            .logo {
+                height: 60%;
+                width: 30%;
+                // object-fit: cover;
+                margin-right: 150px;
+                margin-bottom: 130px;
+                .imageLogo {
+                    // filter: sepia(100%) hue-rotate(190deg) saturate(10%);
+                    filter: brightness(0) invert(0.9);
+                    height: 90%;
+                    // margin-left: 30px;
+                }
+            }
+        }
+          .textForTitle {
+                color: rgb(230, 230, 230);
+                font-size: 30px;
+                // margin-bottom: 300px;
+            }
+        .firstPanelButtons {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 4%;
+        .Download {
+            // position: relative;
+            height: 60px;
+            width: 40%;
+            background: transparent;
+            border: 1px solid rgb(233, 232, 232);
+            //  box-shadow: 0 0 10px 3px rgb(0, 0, 0); 
+            font-size: 30px;
+            color: rgb(223, 219, 219);
+            outline: none;
+            // margin-bottom: 10px;
+            // align-self: flex-end;
+        }
+        .Download:hover{
+            outline: none;
+            cursor: pointer;
+        }
+        //   margin: auto;
+      }
+    }
+               .starOnGithub {
+                margin-right: 650px;
+                margin-top: 50px;
+                color: white;
+                font-size: 30px;
+                display: flex;
+                align-items:center;
+                .star {
+                    height: 35px;
+                    width: 35px;
+                    margin-left: 10px;
+                    // background: transparent;
+                    outline: none;
+                    // border: none;
+                    .starImage {
+                        height: 95%;
+                        width: 95%;
+                    }
+                }
+            }   
+    .secondPanel{
+        height: 25%;
+        width: 100%;
+        // border-bottom: 1px solid black; 
+        display: flex;
+        .firstHalf {
+            height: 100%;
+            width: 50%;
+            // padding: 5%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-around;
+            .features {
+                margin-left: 20%;
+                // margin-bottom: 10%;
+                color: rgb(220, 218, 218);
+                .feature {
+                font-size: 30px;
+                letter-spacing: 3px;
+                // text-decoration: underline;
+                }
+                .featureDescription {
+                    font-size: 30px;
+                    color:rgb(169, 167, 167);
+                    width: 70%;
+                    // width: 
+                }
+            }
+
+            // align-items: center;
+            // background: yellow
+        }
+        .secondHalf {
+            height: 100%;
+            width: 50%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            // background: white;
+            .gif {
+                height: 70%;
+            }
+        }
+    }
+    .thirdPanel {
+        height: 35%;
+        width: 100%;
+        border-bottom: 1px solid black;
+        // background: linear-gradient(45deg, rgba(48,114,158,1) 42%, rgba(145,223,250,1) 100%);
+        background: rgb(50, 117, 159);
+        box-shadow: 0 0 10px 3px rgb(0, 0, 0); 
+        // background: linear-gradient(180deg, rgba(21,80,113,1) 0%, rgba(4,168,176,1) 100%);
+         background: linear-gradient(45deg, rgba(48,114,158,1) 42%, rgba(145,223,250,1) 100%);
+
+        display: flex;
+        .firstHalfOf3rd{
+            height: 100%;
+            width: 50%;
+            padding: 5%;
+            color: rgb(220, 220, 220);
+            // border-right: 1px solid black;
+                        .desTitle {
+                margin-top: 8%;
+                color: rgb(223, 223, 223);
+                font-family: 'Lato'; 
+                font-size: 54px; 
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .pDes {
+                // text-indent: 70px;
+                margin-top: 8%;
+                color: rgb(220, 218, 218);
+                font-size: 30px;
+                letter-spacing: 3px;
+                // font-family: 'Ti
+                
+            }
+        }
+        .thirdTitle {
+            font-size: 45px;
+        }
+        .secondHalfOf3rd{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            .codeSnap{
+                height: 80%;
+                width: 80%;
+            }
+        }  
+    }
+    .fourthPanel {
+        height: 15%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // flex-grow: 1;
+        .TitleForFourth {
+            margin-top: 1em;
+            color: rgb(211, 208, 208);
+            letter-spacing: 3px;
+            font-family: 'Lato', sans-serif; 
+            font-size: 50px; 
+            font-weight: 100;
+        }
+        .Team {
+            margin-left: 10%;
+            height: 70%;
+            width: 80%;
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-around;
+            .member {
+            width: 30%;
+            
+            .images {
+                height: 20%;
+                width: 50%;
+                object-fit: contain;
+                display: flex;
+                justify-content: space-around;
+
+            }
+            .image {
+                height: 100%;
+                width: 100%;
+            }
+            .anchorLinks {
+                width: 25%;
+            }
+            .memberName {
+                font-size: 30px;
+                letter-spacing: 1px;
+                color: rgb(193, 193, 193);
+                font-family: 'Lato', sans-serif; 
+                font-weight: 100;
+                margin-left: 20px;
+            }
+            .github {
+                filter: invert(100%) !important;
+            }
+        }
+        }
+    }
+    }
+  }
+}
