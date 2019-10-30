@@ -22,10 +22,10 @@ function FirstPanel() {
 			<div className="titleAndLogo">
 				<div className="titleName">
 					Peppermint
-					<p className="textForTitle">Graphical User Interface For all Your Vue Testing Needs</p>
 				</div>
 				<div className="logo"><img className="imageLogo" src="../../assets/mint-leaves-two-color-512.png"></img></div>
 			</div>
+			<div className="titleDes"><p className="textForTitle">Graphical User Interface For all Your Vue Testing Needs</p></div>
 			<form className="firstPanelButtons"><button className="button Download">Download</button><button className="button Download" formaction="https://github.com/PeppermintCO/Peppermint">Github</button></form>
 		</div>
 	)
