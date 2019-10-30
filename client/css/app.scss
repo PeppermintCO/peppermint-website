@@ -15,14 +15,14 @@ body {
  
     .app{
     //   margin-top: 3%;
-      height: 100%;
-      width: 100%;
+    width: 1908px;
+    height: 2535.28px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       .FirstPanel {
         // margin-top: 5%;
-        height: 25%;
+        height: 40em;
         width: 100%;
         box-shadow: 0 0 10px 3px rgb(0, 0, 0); 
         background: linear-gradient(45deg, rgba(48,114,158,1) 42%, rgba(145,223,250,1) 100%);
@@ -155,6 +155,7 @@ body {
             // background: white;
             .gif {
                 height: 70%;
+                width: 797.3px;
             }
         }
     }
@@ -203,8 +204,8 @@ body {
             justify-content:center;
             align-items: center;
             .codeSnap{
-                height: 80%;
-                width: 80%;
+                height: 709px;
+                width: 649px;
             }
         }  
     }
@@ -239,11 +240,13 @@ body {
                 object-fit: contain;
                 display: flex;
                 justify-content: space-around;
+              
 
             }
             .image {
-                height: 100%;
-                width: 100%;
+                height: 39.63px;
+                width: 38.46px;
+                // margin-left:50px;
             }
             .anchorLinks {
                 width: 25%;
@@ -265,3 +268,15 @@ body {
     }
   }
 }
+// @media(max-width:1023px){
+//       .hide-0-to-1024{
+//         display:none;
+//       }
+//     }
+
+// @media (min-width: 1024px) {
+//       .hide-1024-up {
+//         display: none;
+//       }
+// }
+// 730px 626px
