@@ -22,10 +22,10 @@ function FirstPanel() {
 			<div className="titleAndLogo">
 				<div className="titleName">
 					Peppermint
-					<p className="textForTitle">Graphical User Interface For all Your Vue Testing Needs</p>
 				</div>
 				<div className="logo"><img className="imageLogo" src="../../assets/mint-leaves-two-color-512.png"></img></div>
 			</div>
+			<div className="titleDes"><p className="textForTitle">Graphical User Interface For all Your Vue Testing Needs</p></div>
 			<form className="firstPanelButtons"><button className="button Download">Download</button><button className="button Download" formaction="https://github.com/PeppermintCO/Peppermint">Github</button></form>
 		</div>
 	)
@@ -62,28 +62,28 @@ function FourthPanel() {
 		<div className="fourthPanel"><div className="TitleForFourth">Organization</div><div className="Team">
 			<div className="member">
 				<div className="images">
-					<a href="https://github.com/saberrr" target="_blank" className="anchorLinks">
+					<a href="https://github.com/saberrr" className="anchorLinks">
 						<img src="../../assets/github.png" className="image github"></img></a>
-					<a href="https://linkedin.com/in/jan-catalan-90906b167" target="_blank" className="anchorLinks">
+					<a href="https://linkedin.com/in/jan-catalan-90906b167" className="anchorLinks">
 						<img src="../../assets/Linkedin.png" className="image"></img></a></div>
 				<p className="memberName">Jan Catalan</p></div>
 			<div className="member"><div className="images">
-				<a href="https://github.com/marzily" target="_blank" className="anchorLinks">
+				<a href="https://github.com/marzily" className="anchorLinks">
 					<img src="../../assets/github.png" className="image github"></img>
 				</a>
-				<a href="https://www.linkedin.com/in/margarett-l" target="_blank" className="anchorLinks">
+				<a href="https://www.linkedin.com/in/margarett-l" className="anchorLinks">
 					<img src="../../assets/Linkedin.png" className="image"></img></a></div>
 				<p className="memberName">Margarett Ly</p></div>
 			<div className="member"><div className="images">
-				<a href="https://github.com/kevinjnam/" target="_blank" className="anchorLinks">
+				<a href="https://github.com/kevinjnam/" className="anchorLinks">
 					<img src="../../assets/github.png" className="image github"></img></a>
-				<a href="https://www.linkedin.com/in/kevinjnam/" target="_blank" className="anchorLinks">
+				<a href="https://www.linkedin.com/in/kevinjnam/" className="anchorLinks">
 					<img src="../../assets/Linkedin.png" className="image"></img></a></div>
 				<p className="memberName">Kevin Nam</p></div>
 			<div className="member"><div className="images">
-				<a href="https://github.com/kbsjsn" target="_blank" className="anchorLinks">
+				<a href="https://github.com/kbsjsn" className="anchorLinks">
 					<img src="../../assets/github.png" className="image github" ></img></a>
-				<a href="https://www.linkedin.com/in/kirkshin/" target="_blank" className="anchorLinks">
+				<a href="https://www.linkedin.com/in/kirkshin/" className="anchorLinks">
 					<img src="../../assets/Linkedin.png" className="image" ></img></a></div>
 				<p className="memberName">Kirk Shin</p></div></div>
 		</div >
