@@ -1,6 +1,9 @@
 $bgcolor: #222222;
 $schema1: rgb(58, 143, 196);
 /* Use the variables */
+html {
+    max-height: 1574.09px;
+}
 body {
   background-color: $bgcolor;
   overflow: scroll;
@@ -65,10 +68,10 @@ body {
             display: flex;
             justify-content: space-around;
             margin-top: 5%;
-        
+
         .Download {
             height: 40px;
-            width: 45%;
+            width: 200px;
             background: transparent;
             border: 1px solid rgb(233, 232, 232);     
             font-size: 20px;
@@ -90,8 +93,9 @@ body {
             color: $schema1;
             outline: none;
             cursor: pointer;
-        }
+        
         //   margin: auto;
+    }
       }
       
     }

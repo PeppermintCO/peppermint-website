@@ -26,7 +26,7 @@ function FirstPanel() {
 				<div className="logo"><img className="imageLogo" src="../../assets/mint-leaves-two-color-512.png"></img></div>
 			</div>
 			<div className="titleDes"><p className="textForTitle">create tests for Vue applications</p></div>
-			<form className="firstPanelButtons" target="_blank"><button className="button Download">Download</button><button className="button Download" formaction="https://github.com/PeppermintCO/Peppermint" >Github</button></form>
+			<div className="firstPanelButtons"><a href="http://s3.amazonaws.com/peppermintjsapp/assets/peppermint.dmg" download><button className="button Download">Download</button></a><a href="https://github.com/PeppermintCO/Peppermint"><button className="button Download">Github</button></a></div>
 		</div>
 	)
 }
